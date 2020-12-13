@@ -1,21 +1,55 @@
 import LinkedList from "./LinkedList.js";
+import Graph from "./Graph.js";
+import Stack from "./Stack.js";
 
 // Algox
 
 // Linear Data Structures
-// Stack
+/* --------------------------------------- */
+/* ---------------- STACK ---------------- */
+/* --------------------------------------- */
+{
+  const stack = new Stack([1, 2, 3, 4]);
+  stack.push(5);
+  stack.push(6);
+  console.log(stack);
+}
+
 // Array
 
 // Non Linear Data Structures
 // Linked List
 // Hash Table
 // Queue
-// Graph
 
-const list = new LinkedList();
-let i = 0;
-while (i < 10) {
-  list.add(i);
-  i++;
+/* --------------------------------------- */
+/* ---------------- GRAPH ---------------- */
+/* --------------------------------------- */
+{
+  /*   var g = new Graph(6);
+  // adding vertices
+  var vertices = ["A", "B", "C", "D", "E", "F"];
+  for (var i = 0; i < vertices.length; i++) {
+    g.addVertex(vertices[i]);
+  }
+
+  // adding edges
+  g.addEdge("A", "B");
+  g.addEdge("A", "D");
+  g.addEdge("A", "E");
+  g.addEdge("B", "C");
+  g.addEdge("D", "E");
+  g.addEdge("E", "F");
+  g.addEdge("E", "C");
+  g.addEdge("C", "F");
+
+  // prints all vertex and
+  // its adjacency list
+  // A -> B D E
+  // B -> A C
+  // C -> B E F
+  // D -> A E
+  // E -> A D F C
+  // F -> E C
+  g.printGraph(); */
 }
-console.log(JSON.stringify(list));

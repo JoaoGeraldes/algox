@@ -61,7 +61,7 @@ class LinkedList {
         this.head = node;
       } else {
         curr = this.head;
-        var it = 0;
+        let it = 0;
 
         // iterate over the list to find
         // the position to insert
@@ -84,7 +84,7 @@ class LinkedList {
   removeFrom(index) {
     if (index > 0 && index > this.size) return -1;
     else {
-      var curr,
+      let curr,
         prev,
         it = 0;
       curr = this.head;
@@ -115,8 +115,8 @@ class LinkedList {
   // removes a given element from the
   // list
   removeElement(element) {
-    var current = this.head;
-    var prev = null;
+    let current = this.head;
+    let prev = null;
 
     // iterate over the list
     while (current != null) {
