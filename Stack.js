@@ -14,7 +14,8 @@ export default class Stack {
   }
 
   pop() {
-    if (this.isEmpty()) this.array.pop();
+    if (this.isEmpty()) throw new Error("Can't pop from an empty stack");
+    else this.array.pop();
   }
 
   peek() {

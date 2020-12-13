@@ -9,9 +9,8 @@ import Stack from "./Stack.js";
 /* ---------------- STACK ---------------- */
 /* --------------------------------------- */
 {
-  const stack = new Stack([1, 2, 3, 4]);
-  stack.push(5);
-  stack.push(6);
+  const stack = new Stack([1]);
+  stack.pop();
   console.log(stack);
 }
 
